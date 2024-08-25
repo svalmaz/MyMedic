@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D093099C2C7B3FD500976122 /* MyMedicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093099B2C7B3FD500976122 /* MyMedicApp.swift */; };
+		D093099E2C7B3FD500976122 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093099D2C7B3FD500976122 /* ContentView.swift */; };
+		D09309A02C7B3FD600976122 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D093099F2C7B3FD600976122 /* Assets.xcassets */; };
+		D09309A32C7B3FD600976122 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D09309A22C7B3FD600976122 /* Preview Assets.xcassets */; };
+		D09309AD2C7B3FD600976122 /* MyMedicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09309AC2C7B3FD600976122 /* MyMedicTests.swift */; };
+		D09309B72C7B3FD600976122 /* MyMedicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09309B62C7B3FD600976122 /* MyMedicUITests.swift */; };
+		D09309B92C7B3FD600976122 /* MyMedicUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09309B82C7B3FD600976122 /* MyMedicUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D09309A92C7B3FD600976122 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D09309902C7B3FD500976122 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D09309972C7B3FD500976122;
+			remoteInfo = MyMedic;
+		};
+		D09309B32C7B3FD600976122 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D09309902C7B3FD500976122 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D09309972C7B3FD500976122;
+			remoteInfo = MyMedic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D09309982C7B3FD500976122 /* MyMedic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMedic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D093099B2C7B3FD500976122 /* MyMedicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMedicApp.swift; sourceTree = "<group>"; };
+		D093099D2C7B3FD500976122 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D093099F2C7B3FD600976122 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D09309A22C7B3FD600976122 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D09309A82C7B3FD600976122 /* MyMedicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyMedicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D09309AC2C7B3FD600976122 /* MyMedicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMedicTests.swift; sourceTree = "<group>"; };
+		D09309B22C7B3FD600976122 /* MyMedicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyMedicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D09309B62C7B3FD600976122 /* MyMedicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMedicUITests.swift; sourceTree = "<group>"; };
+		D09309B82C7B3FD600976122 /* MyMedicUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMedicUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D09309952C7B3FD500976122 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D09309A52C7B3FD600976122 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D09309AF2C7B3FD600976122 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D093098F2C7B3FD500976122 = {
+			isa = PBXGroup;
+			children = (
+				D093099A2C7B3FD500976122 /* MyMedic */,
+				D09309AB2C7B3FD600976122 /* MyMedicTests */,
+				D09309B52C7B3FD600976122 /* MyMedicUITests */,
+				D09309992C7B3FD500976122 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D09309992C7B3FD500976122 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D09309982C7B3FD500976122 /* MyMedic.app */,
+				D09309A82C7B3FD600976122 /* MyMedicTests.xctest */,
+				D09309B22C7B3FD600976122 /* MyMedicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D093099A2C7B3FD500976122 /* MyMedic */ = {
+			isa = PBXGroup;
+			children = (
+				D093099B2C7B3FD500976122 /* MyMedicApp.swift */,
+				D093099D2C7B3FD500976122 /* ContentView.swift */,
+				D093099F2C7B3FD600976122 /* Assets.xcassets */,
+				D09309A12C7B3FD600976122 /* Preview Content */,
+			);
+			path = MyMedic;
+			sourceTree = "<group>";
+		};
+		D09309A12C7B3FD600976122 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D09309A22C7B3FD600976122 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D09309AB2C7B3FD600976122 /* MyMedicTests */ = {
+			isa = PBXGroup;
+			children = (
+				D09309AC2C7B3FD600976122 /* MyMedicTests.swift */,
+			);
+			path = MyMedicTests;
+			sourceTree = "<group>";
+		};
+		D09309B52C7B3FD600976122 /* MyMedicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D09309B62C7B3FD600976122 /* MyMedicUITests.swift */,
+				D09309B82C7B3FD600976122 /* MyMedicUITestsLaunchTests.swift */,
+			);
+			path = MyMedicUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D09309972C7B3FD500976122 /* MyMedic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D09309BC2C7B3FD600976122 /* Build configuration list for PBXNativeTarget "MyMedic" */;
+			buildPhases = (
+				D09309942C7B3FD500976122 /* Sources */,
+				D09309952C7B3FD500976122 /* Frameworks */,
+				D09309962C7B3FD500976122 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyMedic;
+			productName = MyMedic;
+			productReference = D09309982C7B3FD500976122 /* MyMedic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D09309A72C7B3FD600976122 /* MyMedicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D09309BF2C7B3FD600976122 /* Build configuration list for PBXNativeTarget "MyMedicTests" */;
+			buildPhases = (
+				D09309A42C7B3FD600976122 /* Sources */,
+				D09309A52C7B3FD600976122 /* Frameworks */,
+				D09309A62C7B3FD600976122 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D09309AA2C7B3FD600976122 /* PBXTargetDependency */,
+			);
+			name = MyMedicTests;
+			productName = MyMedicTests;
+			productReference = D09309A82C7B3FD600976122 /* MyMedicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D09309B12C7B3FD600976122 /* MyMedicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D09309C22C7B3FD600976122 /* Build configuration list for PBXNativeTarget "MyMedicUITests" */;
+			buildPhases = (
+				D09309AE2C7B3FD600976122 /* Sources */,
+				D09309AF2C7B3FD600976122 /* Frameworks */,
+				D09309B02C7B3FD600976122 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D09309B42C7B3FD600976122 /* PBXTargetDependency */,
+			);
+			name = MyMedicUITests;
+			productName = MyMedicUITests;
+			productReference = D09309B22C7B3FD600976122 /* MyMedicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D09309902C7B3FD500976122 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					D09309972C7B3FD500976122 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					D09309A72C7B3FD600976122 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = D09309972C7B3FD500976122;
+					};
+					D09309B12C7B3FD600976122 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = D09309972C7B3FD500976122;
+					};
+				};
+			};
+			buildConfigurationList = D09309932C7B3FD500976122 /* Build configuration list for PBXProject "MyMedic" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D093098F2C7B3FD500976122;
+			productRefGroup = D09309992C7B3FD500976122 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D09309972C7B3FD500976122 /* MyMedic */,
+				D09309A72C7B3FD600976122 /* MyMedicTests */,
+				D09309B12C7B3FD600976122 /* MyMedicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D09309962C7B3FD500976122 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D09309A32C7B3FD600976122 /* Preview Assets.xcassets in Resources */,
+				D09309A02C7B3FD600976122 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D09309A62C7B3FD600976122 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D09309B02C7B3FD600976122 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D09309942C7B3FD500976122 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D093099E2C7B3FD500976122 /* ContentView.swift in Sources */,
+				D093099C2C7B3FD500976122 /* MyMedicApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D09309A42C7B3FD600976122 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D09309AD2C7B3FD600976122 /* MyMedicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D09309AE2C7B3FD600976122 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D09309B72C7B3FD600976122 /* MyMedicUITests.swift in Sources */,
+				D09309B92C7B3FD600976122 /* MyMedicUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D09309AA2C7B3FD600976122 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D09309972C7B3FD500976122 /* MyMedic */;
+			targetProxy = D09309A92C7B3FD600976122 /* PBXContainerItemProxy */;
+		};
+		D09309B42C7B3FD600976122 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D09309972C7B3FD500976122 /* MyMedic */;
+			targetProxy = D09309B32C7B3FD600976122 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D09309BA2C7B3FD600976122 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D09309BB2C7B3FD600976122 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D09309BD2C7B3FD600976122 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MyMedic/Preview Content\"";
+				DEVELOPMENT_TEAM = 4V3VYDP5YH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = johan.MyMedic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D09309BE2C7B3FD600976122 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MyMedic/Preview Content\"";
+				DEVELOPMENT_TEAM = 4V3VYDP5YH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = johan.MyMedic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D09309C02C7B3FD600976122 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4V3VYDP5YH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = johan.MyMedicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyMedic.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyMedic";
+			};
+			name = Debug;
+		};
+		D09309C12C7B3FD600976122 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4V3VYDP5YH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = johan.MyMedicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyMedic.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyMedic";
+			};
+			name = Release;
+		};
+		D09309C32C7B3FD600976122 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4V3VYDP5YH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = johan.MyMedicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyMedic;
+			};
+			name = Debug;
+		};
+		D09309C42C7B3FD600976122 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4V3VYDP5YH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = johan.MyMedicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyMedic;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D09309932C7B3FD500976122 /* Build configuration list for PBXProject "MyMedic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D09309BA2C7B3FD600976122 /* Debug */,
+				D09309BB2C7B3FD600976122 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D09309BC2C7B3FD600976122 /* Build configuration list for PBXNativeTarget "MyMedic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D09309BD2C7B3FD600976122 /* Debug */,
+				D09309BE2C7B3FD600976122 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D09309BF2C7B3FD600976122 /* Build configuration list for PBXNativeTarget "MyMedicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D09309C02C7B3FD600976122 /* Debug */,
+				D09309C12C7B3FD600976122 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D09309C22C7B3FD600976122 /* Build configuration list for PBXNativeTarget "MyMedicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D09309C32C7B3FD600976122 /* Debug */,
+				D09309C42C7B3FD600976122 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D09309902C7B3FD500976122 /* Project object */;
+}
