@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D0557C4E2C8B7723000F1008 /* CommonButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0557C4D2C8B7723000F1008 /* CommonButton.swift */; };
+		D0557C502C8B7734000F1008 /* SettingsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0557C4F2C8B7734000F1008 /* SettingsButton.swift */; };
+		D0557C522C8B7749000F1008 /* OneIconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0557C512C8B7749000F1008 /* OneIconButton.swift */; };
+		D0557C542C8B7757000F1008 /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0557C532C8B7757000F1008 /* BackButton.swift */; };
+		D0557C562C8B7769000F1008 /* SocialMediaButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0557C552C8B7769000F1008 /* SocialMediaButton.swift */; };
+		D0557C592C8B7797000F1008 /* ProductPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0557C582C8B7797000F1008 /* ProductPage.swift */; };
+		D0557C5B2C8B77AB000F1008 /* OrdersPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0557C5A2C8B77AB000F1008 /* OrdersPage.swift */; };
+		D0557C5D2C8B78FB000F1008 /* AuthPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0557C5C2C8B78FB000F1008 /* AuthPage.swift */; };
+		D0557C5F2C8B7931000F1008 /* RegisterPagePhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0557C5E2C8B7931000F1008 /* RegisterPagePhone.swift */; };
+		D0557C612C8B7946000F1008 /* RegisterPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0557C602C8B7946000F1008 /* RegisterPage.swift */; };
+		D0557C632C8B7968000F1008 /* RegisterPageVerificationPhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0557C622C8B7968000F1008 /* RegisterPageVerificationPhone.swift */; };
+		D0557C652C8B7982000F1008 /* RegisterPageFinal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0557C642C8B7982000F1008 /* RegisterPageFinal.swift */; };
+		D0557C682C8B79AF000F1008 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0557C672C8B79AF000F1008 /* CustomTextField.swift */; };
+		D0557C6A2C8B79BE000F1008 /* EndEditing.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0557C692C8B79BE000F1008 /* EndEditing.swift */; };
+		D0557C6D2C8B7A24000F1008 /* CheckTextAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0557C6C2C8B7A24000F1008 /* CheckTextAuth.swift */; };
+		D0557C702C8B7A59000F1008 /* AuthPageAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0557C6F2C8B7A59000F1008 /* AuthPageAlert.swift */; };
+		D0557C722C8B7A75000F1008 /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0557C712C8B7A75000F1008 /* LoginPage.swift */; };
 		D093099C2C7B3FD500976122 /* MyMedicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093099B2C7B3FD500976122 /* MyMedicApp.swift */; };
 		D093099E2C7B3FD500976122 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093099D2C7B3FD500976122 /* ContentView.swift */; };
 		D09309A02C7B3FD600976122 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D093099F2C7B3FD600976122 /* Assets.xcassets */; };
@@ -34,6 +51,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D0557C4D2C8B7723000F1008 /* CommonButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonButton.swift; sourceTree = "<group>"; };
+		D0557C4F2C8B7734000F1008 /* SettingsButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsButton.swift; sourceTree = "<group>"; };
+		D0557C512C8B7749000F1008 /* OneIconButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneIconButton.swift; sourceTree = "<group>"; };
+		D0557C532C8B7757000F1008 /* BackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
+		D0557C552C8B7769000F1008 /* SocialMediaButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMediaButton.swift; sourceTree = "<group>"; };
+		D0557C582C8B7797000F1008 /* ProductPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductPage.swift; sourceTree = "<group>"; };
+		D0557C5A2C8B77AB000F1008 /* OrdersPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersPage.swift; sourceTree = "<group>"; };
+		D0557C5C2C8B78FB000F1008 /* AuthPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthPage.swift; sourceTree = "<group>"; };
+		D0557C5E2C8B7931000F1008 /* RegisterPagePhone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPagePhone.swift; sourceTree = "<group>"; };
+		D0557C602C8B7946000F1008 /* RegisterPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPage.swift; sourceTree = "<group>"; };
+		D0557C622C8B7968000F1008 /* RegisterPageVerificationPhone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPageVerificationPhone.swift; sourceTree = "<group>"; };
+		D0557C642C8B7982000F1008 /* RegisterPageFinal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPageFinal.swift; sourceTree = "<group>"; };
+		D0557C672C8B79AF000F1008 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		D0557C692C8B79BE000F1008 /* EndEditing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndEditing.swift; sourceTree = "<group>"; };
+		D0557C6C2C8B7A24000F1008 /* CheckTextAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckTextAuth.swift; sourceTree = "<group>"; };
+		D0557C6F2C8B7A59000F1008 /* AuthPageAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthPageAlert.swift; sourceTree = "<group>"; };
+		D0557C712C8B7A75000F1008 /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
+		D0557C8C2C8B7B6D000F1008 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D0557C8D2C8B7CA0000F1008 /* Cruinn Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Cruinn Regular.ttf"; path = "../../../../../Salam/SalamIOs/SalamIOs/Mock/Fonts/Cruinn Regular.ttf"; sourceTree = "<group>"; };
+		D0557C8E2C8B7CA0000F1008 /* Bartina Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Bartina Bold.ttf"; path = "../../../../../Salam/SalamIOs/SalamIOs/Mock/Fonts/Bartina Bold.ttf"; sourceTree = "<group>"; };
+		D0557C8F2C8B7CA0000F1008 /* MultiroundPro.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = MultiroundPro.otf; path = ../../../../../Salam/SalamIOs/SalamIOs/Mock/Fonts/MultiroundPro.otf; sourceTree = "<group>"; };
+		D0557C902C8B7CA0000F1008 /* Cruinn Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Cruinn Bold.ttf"; path = "../../../../../Salam/SalamIOs/SalamIOs/Mock/Fonts/Cruinn Bold.ttf"; sourceTree = "<group>"; };
+		D0557C912C8B7CA0000F1008 /* Everlasting.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Everlasting.ttf; path = ../../../../../Salam/SalamIOs/SalamIOs/Mock/Fonts/Everlasting.ttf; sourceTree = "<group>"; };
+		D0557C922C8B7CA0000F1008 /* the_weekend.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = the_weekend.otf; path = ../../../../../Salam/SalamIOs/SalamIOs/Mock/Fonts/the_weekend.otf; sourceTree = "<group>"; };
 		D09309982C7B3FD500976122 /* MyMedic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMedic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D093099B2C7B3FD500976122 /* MyMedicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMedicApp.swift; sourceTree = "<group>"; };
 		D093099D2C7B3FD500976122 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +112,91 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D0557C492C8B76A5000F1008 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D0557C6E2C8B7A45000F1008 /* Alerts */,
+				D0557C6B2C8B7A03000F1008 /* Check */,
+				D0557C662C8B79A0000F1008 /* Text */,
+				D0557C4C2C8B76D2000F1008 /* Fonts */,
+				D0557C4B2C8B76C3000F1008 /* Cards */,
+				D0557C4A2C8B76B4000F1008 /* Buttons */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D0557C4A2C8B76B4000F1008 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				D0557C4D2C8B7723000F1008 /* CommonButton.swift */,
+				D0557C4F2C8B7734000F1008 /* SettingsButton.swift */,
+				D0557C512C8B7749000F1008 /* OneIconButton.swift */,
+				D0557C532C8B7757000F1008 /* BackButton.swift */,
+				D0557C552C8B7769000F1008 /* SocialMediaButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		D0557C4B2C8B76C3000F1008 /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cards;
+			sourceTree = "<group>";
+		};
+		D0557C4C2C8B76D2000F1008 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D0557C8E2C8B7CA0000F1008 /* Bartina Bold.ttf */,
+				D0557C902C8B7CA0000F1008 /* Cruinn Bold.ttf */,
+				D0557C8D2C8B7CA0000F1008 /* Cruinn Regular.ttf */,
+				D0557C912C8B7CA0000F1008 /* Everlasting.ttf */,
+				D0557C8F2C8B7CA0000F1008 /* MultiroundPro.otf */,
+				D0557C922C8B7CA0000F1008 /* the_weekend.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		D0557C572C8B777B000F1008 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D0557C582C8B7797000F1008 /* ProductPage.swift */,
+				D0557C5A2C8B77AB000F1008 /* OrdersPage.swift */,
+				D0557C5C2C8B78FB000F1008 /* AuthPage.swift */,
+				D0557C5E2C8B7931000F1008 /* RegisterPagePhone.swift */,
+				D0557C602C8B7946000F1008 /* RegisterPage.swift */,
+				D0557C622C8B7968000F1008 /* RegisterPageVerificationPhone.swift */,
+				D0557C642C8B7982000F1008 /* RegisterPageFinal.swift */,
+				D0557C712C8B7A75000F1008 /* LoginPage.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D0557C662C8B79A0000F1008 /* Text */ = {
+			isa = PBXGroup;
+			children = (
+				D0557C672C8B79AF000F1008 /* CustomTextField.swift */,
+				D0557C692C8B79BE000F1008 /* EndEditing.swift */,
+			);
+			path = Text;
+			sourceTree = "<group>";
+		};
+		D0557C6B2C8B7A03000F1008 /* Check */ = {
+			isa = PBXGroup;
+			children = (
+				D0557C6C2C8B7A24000F1008 /* CheckTextAuth.swift */,
+			);
+			path = Check;
+			sourceTree = "<group>";
+		};
+		D0557C6E2C8B7A45000F1008 /* Alerts */ = {
+			isa = PBXGroup;
+			children = (
+				D0557C6F2C8B7A59000F1008 /* AuthPageAlert.swift */,
+			);
+			path = Alerts;
+			sourceTree = "<group>";
+		};
 		D093098F2C7B3FD500976122 = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +220,9 @@
 		D093099A2C7B3FD500976122 /* MyMedic */ = {
 			isa = PBXGroup;
 			children = (
+				D0557C8C2C8B7B6D000F1008 /* Info.plist */,
+				D0557C572C8B777B000F1008 /* Views */,
+				D0557C492C8B76A5000F1008 /* Extensions */,
 				D093099B2C7B3FD500976122 /* MyMedicApp.swift */,
 				D093099D2C7B3FD500976122 /* ContentView.swift */,
 				D093099F2C7B3FD600976122 /* Assets.xcassets */,
@@ -257,8 +386,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0557C722C8B7A75000F1008 /* LoginPage.swift in Sources */,
+				D0557C502C8B7734000F1008 /* SettingsButton.swift in Sources */,
+				D0557C522C8B7749000F1008 /* OneIconButton.swift in Sources */,
+				D0557C592C8B7797000F1008 /* ProductPage.swift in Sources */,
+				D0557C612C8B7946000F1008 /* RegisterPage.swift in Sources */,
+				D0557C542C8B7757000F1008 /* BackButton.swift in Sources */,
+				D0557C6D2C8B7A24000F1008 /* CheckTextAuth.swift in Sources */,
+				D0557C5B2C8B77AB000F1008 /* OrdersPage.swift in Sources */,
+				D0557C6A2C8B79BE000F1008 /* EndEditing.swift in Sources */,
 				D093099E2C7B3FD500976122 /* ContentView.swift in Sources */,
+				D0557C4E2C8B7723000F1008 /* CommonButton.swift in Sources */,
 				D093099C2C7B3FD500976122 /* MyMedicApp.swift in Sources */,
+				D0557C702C8B7A59000F1008 /* AuthPageAlert.swift in Sources */,
+				D0557C5F2C8B7931000F1008 /* RegisterPagePhone.swift in Sources */,
+				D0557C652C8B7982000F1008 /* RegisterPageFinal.swift in Sources */,
+				D0557C5D2C8B78FB000F1008 /* AuthPage.swift in Sources */,
+				D0557C562C8B7769000F1008 /* SocialMediaButton.swift in Sources */,
+				D0557C632C8B7968000F1008 /* RegisterPageVerificationPhone.swift in Sources */,
+				D0557C682C8B79AF000F1008 /* CustomTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +566,7 @@
 				DEVELOPMENT_TEAM = 4V3VYDP5YH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyMedic/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +596,7 @@
 				DEVELOPMENT_TEAM = 4V3VYDP5YH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyMedic/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
