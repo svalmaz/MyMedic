@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D03EEFA42C8EAF4E00729942 /* ProductCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03EEFA32C8EAF4E00729942 /* ProductCard.swift */; };
 		D0557C4E2C8B7723000F1008 /* CommonButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0557C4D2C8B7723000F1008 /* CommonButton.swift */; };
 		D0557C502C8B7734000F1008 /* SettingsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0557C4F2C8B7734000F1008 /* SettingsButton.swift */; };
 		D0557C522C8B7749000F1008 /* OneIconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0557C512C8B7749000F1008 /* OneIconButton.swift */; };
@@ -24,6 +25,7 @@
 		D0557C6D2C8B7A24000F1008 /* CheckTextAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0557C6C2C8B7A24000F1008 /* CheckTextAuth.swift */; };
 		D0557C702C8B7A59000F1008 /* AuthPageAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0557C6F2C8B7A59000F1008 /* AuthPageAlert.swift */; };
 		D0557C722C8B7A75000F1008 /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0557C712C8B7A75000F1008 /* LoginPage.swift */; };
+		D091A85E2C91749C00A0692B /* OrderCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D091A85D2C91749C00A0692B /* OrderCard.swift */; };
 		D093099C2C7B3FD500976122 /* MyMedicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093099B2C7B3FD500976122 /* MyMedicApp.swift */; };
 		D093099E2C7B3FD500976122 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093099D2C7B3FD500976122 /* ContentView.swift */; };
 		D09309A02C7B3FD600976122 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D093099F2C7B3FD600976122 /* Assets.xcassets */; };
@@ -51,6 +53,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D03EEFA32C8EAF4E00729942 /* ProductCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCard.swift; sourceTree = "<group>"; };
 		D0557C4D2C8B7723000F1008 /* CommonButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonButton.swift; sourceTree = "<group>"; };
 		D0557C4F2C8B7734000F1008 /* SettingsButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsButton.swift; sourceTree = "<group>"; };
 		D0557C512C8B7749000F1008 /* OneIconButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneIconButton.swift; sourceTree = "<group>"; };
@@ -75,6 +78,7 @@
 		D0557C902C8B7CA0000F1008 /* Cruinn Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Cruinn Bold.ttf"; path = "../../../../../Salam/SalamIOs/SalamIOs/Mock/Fonts/Cruinn Bold.ttf"; sourceTree = "<group>"; };
 		D0557C912C8B7CA0000F1008 /* Everlasting.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Everlasting.ttf; path = ../../../../../Salam/SalamIOs/SalamIOs/Mock/Fonts/Everlasting.ttf; sourceTree = "<group>"; };
 		D0557C922C8B7CA0000F1008 /* the_weekend.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = the_weekend.otf; path = ../../../../../Salam/SalamIOs/SalamIOs/Mock/Fonts/the_weekend.otf; sourceTree = "<group>"; };
+		D091A85D2C91749C00A0692B /* OrderCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCard.swift; sourceTree = "<group>"; };
 		D09309982C7B3FD500976122 /* MyMedic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMedic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D093099B2C7B3FD500976122 /* MyMedicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMedicApp.swift; sourceTree = "<group>"; };
 		D093099D2C7B3FD500976122 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -112,6 +116,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D03EEF9F2C8EA5A300729942 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				D0557C5C2C8B78FB000F1008 /* AuthPage.swift */,
+				D0557C5E2C8B7931000F1008 /* RegisterPagePhone.swift */,
+				D0557C602C8B7946000F1008 /* RegisterPage.swift */,
+				D0557C622C8B7968000F1008 /* RegisterPageVerificationPhone.swift */,
+				D0557C642C8B7982000F1008 /* RegisterPageFinal.swift */,
+				D0557C712C8B7A75000F1008 /* LoginPage.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		D03EEFA02C8EA64600729942 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				D0557C582C8B7797000F1008 /* ProductPage.swift */,
+				D0557C5A2C8B77AB000F1008 /* OrdersPage.swift */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
 		D0557C492C8B76A5000F1008 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -140,6 +166,8 @@
 		D0557C4B2C8B76C3000F1008 /* Cards */ = {
 			isa = PBXGroup;
 			children = (
+				D03EEFA32C8EAF4E00729942 /* ProductCard.swift */,
+				D091A85D2C91749C00A0692B /* OrderCard.swift */,
 			);
 			path = Cards;
 			sourceTree = "<group>";
@@ -160,14 +188,8 @@
 		D0557C572C8B777B000F1008 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				D0557C582C8B7797000F1008 /* ProductPage.swift */,
-				D0557C5A2C8B77AB000F1008 /* OrdersPage.swift */,
-				D0557C5C2C8B78FB000F1008 /* AuthPage.swift */,
-				D0557C5E2C8B7931000F1008 /* RegisterPagePhone.swift */,
-				D0557C602C8B7946000F1008 /* RegisterPage.swift */,
-				D0557C622C8B7968000F1008 /* RegisterPageVerificationPhone.swift */,
-				D0557C642C8B7982000F1008 /* RegisterPageFinal.swift */,
-				D0557C712C8B7A75000F1008 /* LoginPage.swift */,
+				D03EEFA02C8EA64600729942 /* Product */,
+				D03EEF9F2C8EA5A300729942 /* Auth */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -389,6 +411,8 @@
 				D0557C722C8B7A75000F1008 /* LoginPage.swift in Sources */,
 				D0557C502C8B7734000F1008 /* SettingsButton.swift in Sources */,
 				D0557C522C8B7749000F1008 /* OneIconButton.swift in Sources */,
+				D091A85E2C91749C00A0692B /* OrderCard.swift in Sources */,
+				D03EEFA42C8EAF4E00729942 /* ProductCard.swift in Sources */,
 				D0557C592C8B7797000F1008 /* ProductPage.swift in Sources */,
 				D0557C612C8B7946000F1008 /* RegisterPage.swift in Sources */,
 				D0557C542C8B7757000F1008 /* BackButton.swift in Sources */,
